@@ -1,0 +1,36 @@
+# Compile of priority_encoder_tb.sv was successful.
+# Compile of priority_encoder.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Load canceled
+vsim -gui work.tb_arbiter_rr
+# vsim -gui work.tb_arbiter_rr 
+# Start time: 23:02:54 on Jul 22,2025
+# Loading sv_std.std
+# Loading work.tb_arbiter_rr
+# Loading work.arbiter_rr
+vsim tb_arbiter_rr
+# ** Error: Acs sdne.
+# 
+# 
+#        Unable to replace existing ini file (C:/Users/inamd/OneDrive/Desktop/PrioritySV/PrioritySV.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/inamd/OneDrive/Desktop/PrioritySV/PrioritySV.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/inamd/OneDrive/Desktop/PrioritySV/PrioritySV.mpf).  File can not be renamed.
+# End time: 23:04:50 on Jul 22,2025, Elapsed time: 0:01:56
+# Errors: 3, Warnings: 6
+# vsim tb_arbiter_rr 
+# Start time: 23:04:50 on Jul 22,2025
+# Loading sv_std.std
+# Loading work.tb_arbiter_rr
+# Loading work.arbiter_rr
+add wave -r *
+run 500ns
+# ** Note: $finish    : C:/Users/inamd/OneDrive/Desktop/PrioritySV/tb/priority_encoder_tb.sv(33)
+#    Time: 242 ns  Iteration: 0  Instance: /tb_arbiter_rr
+# 1
+# Break in Module tb_arbiter_rr at C:/Users/inamd/OneDrive/Desktop/PrioritySV/tb/priority_encoder_tb.sv line 33
+write wave sim/arbiter_wave.do
+# printing wave to file sim/arbiter_wave.do
