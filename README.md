@@ -25,10 +25,3 @@ This project implements an advanced 4-way round-robin arbiter using **SystemVeri
 - `arbiter_tb.sv` – Testbench with various test cases
 - `wave.do` *(optional)* – Waveform script for ModelSim
 
-## ✅ How to Run (ModelSim)
-```bash
-vlib work
-vlog src/arbiter.sv tb/arbiter_tb.sv
-vsim work.arbiter_tb
-do wave.do     # (optional if you created a waveform file)
-run -all
