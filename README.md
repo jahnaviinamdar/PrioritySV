@@ -23,5 +23,5 @@ This project implements an advanced 4-way round-robin arbiter using **SystemVeri
 ## 📜 Files
 - `arbiter.sv` – Main RTL code for the arbiter
 - `arbiter_tb.sv` – Testbench with various test cases
-- `wave.do` *(optional)* – Waveform script for ModelSim
+- `wave.do`  – Waveform script for ModelSim
 
